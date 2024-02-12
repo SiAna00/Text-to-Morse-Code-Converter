@@ -41,7 +41,7 @@ morse_code = {"a" : ".-",
               " " : " "
               }
 
-print("Welcome to 'Latin to Morse Code' Converter")
+print("Welcome to Text to Morse Code Converter")
 
 phrase = (input("Enter a word or a phrase you would like to convert to Morse code:\n")).lower()
 
