@@ -37,7 +37,8 @@ morse_code = {"a" : ".-",
               "." : ".-.-.-",
               "," : "--..--",
               "?" : "..--..",
-              "!" : "-.-.--"
+              "!" : "-.-.--",
+              " " : " "
               }
 
 print("Welcome to 'Latin to Morse Code' Converter")
