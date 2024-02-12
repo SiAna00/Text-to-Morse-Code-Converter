@@ -40,4 +40,15 @@ morse_code = {"a" : ".-",
               "!" : "-.-.--"
               }
 
-phrase = input("Please enter a word or a phrase: ")
+print("Welcome to 'Latin to Morse Code' Converter")
+
+phrase = (input("Enter a word or a phrase you would like to convert to Morse code:\n")).lower()
+
+phrase_morse = ""
+
+for character in phrase:
+    for key in morse_code:
+        if character == key:
+            phrase_morse += morse_code[key]
+
+print(phrase_morse)
